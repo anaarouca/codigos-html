@@ -1,0 +1,18 @@
+/* SEÇÃO SOBRE */
+.t {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo {
+  color: black;
+  font-size: 45px;
+}
+
+.equipe {
+  margin-top: 40px;
+  width: auto;
+  height: 400px;
+}

@@ -1,0 +1,160 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+body{
+    background-image:url(img/fundoClaro.png)
+}
+
+header {
+  background-color: #38754b;
+  padding: 8px;
+  text-align: center;
+  height: 200px;
+  width: 102vw;
+}
+
+.logo {
+  left: 10;
+  width: 300px;
+
+}
+
+.conteudo-principal {
+  padding-top: 30px;
+}
+
+
+.menu {
+  height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 40px;
+
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  transition: color 200ms ease;
+  position: relative;
+}
+
+nav a:after {
+
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0%;
+  background: #006b10;
+  transition: width 220ms ease;
+}
+
+
+nav a:hover:after {
+  width: 100%;
+  transform: scale(1.15);
+}
+/*-------------------------------------------------------------*/
+
+
+.card{
+    margin-top: 60px;
+    margin-left: 20px;
+    width: 700px;
+    border-radius: 20px;
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #38754b;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    scale:0.9;
+    transition: 1s ease-in;
+    font-size: 17px;
+}
+
+
+
+.ep1{
+    width:300px;
+    height:150px;
+}
+
+.conteudo {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 80px;
+    border-radius: 8px;
+    margin-top: 40px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+p, li, label {
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    border: 1px solid #222;
+}
+
+ul li {
+    margin-bottom: 25px;
+}
+
+.btn-centro {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.btn-centro a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 360px;
+    background-color: #234000;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.btn-centro a:hover {
+    background-color: #3b6a00;
+}
+
+label{
+    font-size: 25px;
+    
+}
+header {
+  background-color: #38754b;
+  padding: 8px;
+  text-align: center;
+  height: 200px;
+  width: 105%;
+}
+
+.logo {
+  left: 10;
+  width: 300px;
+
+}
+
+.conteudo-principal {
+  padding-top: 30px;
+}
+

@@ -1,0 +1,11 @@
+.fonte1{
+    font-family: "Montserrat";
+}
+@font-face {
+    font-family: "bebas" ;
+    src: url(Font/BebasNeue-Regular.ttf.ttf);
+}
+
+.fonte2{
+    font-family: bebas;
+}

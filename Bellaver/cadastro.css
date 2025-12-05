@@ -1,0 +1,59 @@
+.conteudo {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 80px;
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p, li, label {
+    font-size: 18px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    border: 1px solid #222;
+}
+
+ul li {
+    margin-bottom: 25px;
+}
+
+/*------------------------------------------*/
+.btn-centro {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.btn-centro a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 360px;
+    background-color: black;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.btn-centro a:hover {
+    background-color: #606060;
+}
+
+/* label{
+    font-size: 25px;
+    
+} */
+
+
+
+.conteudo-principal {
+  padding-top: 30px;
+}
+

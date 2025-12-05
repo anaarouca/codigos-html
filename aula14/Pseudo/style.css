@@ -1,0 +1,22 @@
+.botao1{
+    background-color: red;
+    color: white;
+}
+.botao1:hover{
+    background-color: lightblue;
+    color: black;
+    transition: 3s ease-in-out;
+}
+
+input:focus {
+    border: 2px solid blue;
+    outline: none;
+}
+
+.botao2{
+    background-color: blue;
+}
+.botao2:active{
+    background-color: lightblue;
+    transform: scale(0.90);
+}

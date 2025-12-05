@@ -1,0 +1,275 @@
+@font-face{
+  font-family: "conteudo";
+  src: url(fonts/Cinzel-VariableFont_wght.ttf);
+}
+
+/* @font-face{
+  font-family: "tituloRoupa";
+  src: url(fonts/FNCocoSans-Thin.ttf);
+}
+
+.titulo{
+  font-family: tituloRoupa;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #f3f3f3;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow-x: hidden;
+ font-family: "conteudo";
+}
+
+main {
+  flex: 1;
+}
+
+
+/*========================================
+  TIPOGRAFIA
+========================================*/
+h2 {
+  font-size: 30px;
+}
+
+p, li, label {
+  font-size: 18px;
+}
+
+p {
+  font-size: 20px;
+}
+
+/*========================================
+  LAYOUT GERAL
+========================================*/
+section {
+  margin-left: 20px;
+  margin-right: 30px;
+}
+
+.conteudo {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 80px;
+  border-radius: 8px;
+}
+
+/* HEADER E MENU */
+header {
+  background-color: black;
+  text-align: center;
+  height: 65px;
+  width: 100%;
+  padding-top: 3px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 0 50px;
+  font-size: 20px;
+}
+
+nav a , nav ol, nav ol li{
+  color: white;
+  text-decoration: none;
+  position: relative;
+  font-size: 28px;
+  transition: color 200ms ease;
+ 
+}
+
+nav .mn::after, nav ol .mn::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background: #606060;
+  transition: width 220ms ease;
+}
+
+nav .mn:hover::after, nav ol .mn:hover::after {
+  width: 100%;
+  transform: scale(1.15);
+}
+.ln {
+  padding-top: 19px;
+}
+
+.logo {
+  height: 50px;
+  transform: scale(4);
+  margin: 0 500px;
+  padding-left: 11px;
+}
+
+/* Dropdown do menu */
+.m {
+  display: none;
+  list-style: none;
+  color: white;
+}
+
+ol {
+  margin-top: 20px;
+}
+
+ol:hover .m, 
+ol:hover,
+a:hover {
+  display: block;
+  background-color: #000;
+}
+
+.menu:hover {
+  background-color: #000;
+}
+
+
+
+/*---------------------- RODAPÉ ---------------------------*/
+
+footer {
+  background-color: #e0e0e0;
+  color: #000;
+  height: 600px;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  margin-top: 80px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -30px;
+}
+
+.cardE {
+  display: flex;
+  gap: 60px;
+  padding: 40px 60px;
+}
+
+/* Texto inicial */
+.textoLogo {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: -80px;
+}
+
+/* Colunas do rodapé */
+.coluna {
+  flex: 1;
+  min-width: 220px;
+  color: #000;
+  text-align: left;
+}
+
+.coluna h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 0.8rem;
+}
+
+.coluna ul {
+  list-style: none;
+}
+
+.coluna ul li a {
+  text-decoration: none;
+  color: #000000;
+  transition: 0.3s;
+}
+
+.coluna ul li a:hover {
+  color: #fff;
+  background-color: #e0e0e0;
+}
+
+/* Ícones sociais */
+.icones {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.icones a {
+  color: #000;
+  font-size: 1.4rem;
+  transition: 0.3s;
+}
+
+.icones a:hover {
+  color: #fff;
+  background-color: #e0e0e0;
+  transform: scale(1.2);
+}
+
+/* Linhas */
+.linha-vertical {
+  width: 1px;
+  height: 100px;
+  background-color: #b9b9b9;
+  margin: 20px 25px;
+}
+
+.linha-horizontal {
+  width: 1500px;
+  height: 1px;
+  background-color: #b9b9b9;
+  margin: 20px 0;
+  padding: 0.5px;
+}
+
+/* Rodapé final */
+.rodape {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+}
+
+.logook {
+  width: 270px;
+  height: auto;
+  margin-left: -70px;
+}
+
+/* RESPONSIVO */
+@media (max-width: 768px) {
+  .coluna {
+    text-align: center;
+  }
+  
+  .icones {
+    justify-content: center;
+  }
+}
+
+/*------------ Foto Canto Produtos ----------------*/
+
+.cartao{
+  margin-left: 30px;
+}

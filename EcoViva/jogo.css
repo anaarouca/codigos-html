@@ -1,0 +1,148 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #38754bdd;
+}
+
+header {
+  background-color: #38754b;
+  padding: 8px;
+  text-align: center;
+  height: 200px;
+  width: 105%;
+}
+.titulo{
+  font-size: 60px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.logo {
+  left: 10;
+  width: 300px;
+
+}
+
+.conteudo-principal {
+  padding-top: 30px;
+}
+
+
+.menu {
+  height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 40px;
+
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  transition: color 200ms ease;
+  position: relative;
+}
+
+nav a:after {
+
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0%;
+  background: #006b10;
+  transition: width 220ms ease;
+}
+
+
+nav a:hover:after {
+  width: 100%;
+  transform: scale(1.15);
+}
+
+.jogos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 150px;
+
+   display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+
+.jogo {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 10px black;
+  text-align: center;
+
+}
+
+
+
+.jogo img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+
+.jogo h2 {
+  font-size: 25px;
+  color: black;
+  margin: 10px 0 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.jogo p {
+  font-size: 20px;
+  color: green;
+
+}
+.jogar1{
+  width: 180px;
+  height: 20px;
+  border-radius: 360px;
+  margin-top: 10px;
+  background-color: #38754b;
+  color: white;
+  font-size: 16px;
+
+}
+.jogar1{
+  display:block;
+  object-fit:cover;
+  transform:scale(1);
+  transition: transform 320ms ease;
+}
+.jogar1:hover {
+  transform:scale(1.12);
+}
+.bot{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.cards{
+ display: flex;
+  justify-content: space-evenly;
+  align-items: center;           
+  background-color: #5b8763;    
+  padding: 20px;
+  
+}
+
